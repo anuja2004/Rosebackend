@@ -14,6 +14,9 @@ app.get('/', (req, res) => {   //callback
 app.get('/twitter',(req, res)=>{
     res.send('<h1>Helllllllo</h1>')
 })
+app.get('/insta',(req, res)=>{
+  res.send('<h1>Helllll from insta</h1>')
+})
 
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
